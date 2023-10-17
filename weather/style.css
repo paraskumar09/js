@@ -1,0 +1,201 @@
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+
+   .wrapper
+   {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#2E4374 ;
+        gap: 5rem;
+        padding-top: 25px;
+
+   }
+
+   #top-head
+   {
+        color: #fff;
+        font-size: 3rem;
+   }
+
+   .tabs{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    color: #fff;
+    font-size: 1.5rem;
+   }
+
+   .your,.search{
+    cursor: pointer;
+    padding:0.3rem 1.5rem;
+   }
+
+   .weather-container
+   {
+    position: relative;
+   }
+
+   .grantAccess
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    display: none;
+}
+
+   .grantAccess img
+   {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+   }
+
+   .grantAccess h3
+   {
+        font-size: 1.6rem;
+   }
+
+   .grantAccess p
+   {
+    font-size: 0.9rem;
+   }
+
+   .Grantbtn
+   {
+        height: 2rem;
+        width: 9rem;
+        cursor: pointer;
+       font-size: 1.2rem;
+        color: #fff;
+        background-color: rgba(128, 128, 128,0.4);
+        border: none;
+   }
+
+.searchtab
+{
+display: flex;
+justify-content: center;
+gap: 1rem;
+display: none;
+}
+   .searchbar{
+        background-color: rgba(128, 128, 128,0.4);
+        height: 2.5rem;
+        width: 40rem;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        padding:0 1.5rem ;
+        font-size:1.1rem ;
+   }
+
+   .searchbtn
+   {
+        border-radius: 50%;
+        background-color: rgba(128, 128, 128,0.2);
+        height: 2.5rem;
+        width: 2.5rem;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+
+   }
+
+   .searchbar::placeholder
+   {
+    color: #fff;
+   }
+
+   .loading
+   {
+    display: none;
+   }
+
+   .weather{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+        color: #fff;
+        margin-top:3rem ;
+        display: none;
+}
+
+   .city
+   {
+    display: flex;
+    gap: 3px;
+   }
+
+   .city p{
+    font-size: 1.5rem;
+    color: #fff;
+   }
+   .city img
+   {
+    height: 20px;
+    width: 40px;
+   }
+   .weatherType
+   {
+    height: 60px;
+    width: 60px;
+   }
+
+   .weatherTypeDesc
+   {
+    font-size: 1.2rem;
+   }
+
+
+   .temp
+   {
+    font-size: 3rem;
+   }
+
+   .otherdesc
+   {
+    display: flex;
+    justify-content: space-around;    
+    gap: 1.5rem;
+   }
+
+   .otherdesc div
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    background-color: rgba(128, 128, 128,0.5);
+    padding: 2rem;
+    width: 10rem;
+    height: 10rem;
+    font-size: 1.3rem;
+
+   }
+
+   .otherdesc img
+   {
+    height: 3rem;
+    width: rem;
+   }
+
+   .current-tab
+   {
+    background-color: rgba(219,226,239,0.5);
+    border-radius: 4px;
+   }
+
+.active-class
+{
+    display: flex;
+}
